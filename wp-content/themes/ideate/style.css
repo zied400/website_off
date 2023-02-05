@@ -1,0 +1,341 @@
+/*
+Theme Name: Ideate
+Theme URI: https://speciatheme.com/ideate-free/
+Author: Specia
+Author URI: https://speciatheme.com/
+Description: Ideate is a trending WordPress theme with lots of powerful features, instantly giving a professional look to your online presence. Ideate comes with everything you could ever need to build an amazing website, and it's perfect for any type of business! View the demo of Ideate Premium https://demo.speciatheme.com/pro/?theme=ideate
+Template: specia
+Version: 1.0.53
+Tested up to: 6.0
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: ideate
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, entertainment, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+section.footer-copyright p a {
+    color: #7825F3;
+}
+
+.entry-content a, .comment-content a, .widget_text a, strong a, blockquote a, code a, p a{
+    color: #7825F3;
+    text-decoration: underline;
+}
+
+
+.sidebar .widget input[type="submit"]:hover,
+.sidebar .widget input[type="submit"]:focus,
+.sidebar .wp-block-search .wp-block-search__button:hover,
+.sidebar .wp-block-search .wp-block-search__button:focus {
+    background: #7825F3;
+    border-color: #7825F3;
+}
+
+.features-version-one .feature-box-info h4 {
+    color: #7825F3;
+}
+
+/*---------------------------------------------
+    Header Ideate (nav-ideate)
+---------------------------------------------*/
+
+.nav-ideate .navigation {
+    padding: 0;
+}
+
+.nav-ideate .logo {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 0px 32px;
+    z-index: 0;
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.1));
+}
+
+.nav-ideate .logo::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background: inherit;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+}
+
+.nav-ideate .menubar > .menu-wrap > li > a {
+    line-height: 100px;
+}
+
+.nav-ideate .logo a,
+.nav-ideate .logo .site-description {
+    color: #fff;
+}
+
+.nav-ideate .navigation .menu-wrap > li.dropdown > a:after {
+    visibility: hidden;
+}
+
+
+/*---------------------------------------
+    Slider Fifteen
+-----------------------------------------*/
+.specia-content-inner {
+    display: block;
+    background-color: rgb(0 0 0 / 0.35);
+    padding: 30px 25px;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
+.specia-content-inner > span {
+    display: block;
+}
+
+.specia-content-inner > span p {
+    margin-bottom: 0;
+}
+
+.specia-content-inner h6 {
+    position: relative;
+    display: inline-block;
+}
+.slider-section-fifteen .specia-slider.text-center h6:before,
+.slider-section-fifteen .specia-slider h6:after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 18px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-width: 0;
+    border-style: solid;
+}
+
+.slider-section-fifteen .specia-slider.text-right h6 {
+    padding-right: 10px;
+}
+
+.slider-section-fifteen .specia-slider.text-center h6:before,
+.slider-section-fifteen .specia-slider.text-right h6:after {
+    right: 0;
+    border-right-width: 3px;
+}
+
+.slider-section-fifteen .specia-slider.text-left h6 {
+    padding-left: 10px;
+}
+
+.slider-section-fifteen .specia-slider.text-center h6:after,
+.slider-section-fifteen .specia-slider.text-left h6:after {
+    left: 0;
+    border-left-width: 3px;
+}
+
+.slider-section-fifteen .specia-slider.text-center h6 {
+    padding: 0 10px;
+}
+
+@media (max-width: 767px) {
+    .slider-section-fifteen .specia-content-inner {
+        padding: 8px 12px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.post_date {
+	background: #7825F3;
+}
+
+.post_date h6 {
+   color: #ffffff;
+}
+
+/*---------------*/
+/***** Ruby *****/
+/*---------------*/
+
+figure.effect-portfolio16 {
+    background-color: #7825F3;
+}
+
+figure.effect-portfolio16 img {
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+figure.effect-portfolio16:hover img {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-portfolio16 figcaption {
+    padding: 25px;
+}
+
+figure.effect-portfolio16 h2 {
+    margin-top: 20%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0);
+}
+
+figure.effect-portfolio16 p {
+    margin: 1em 0 0;
+    padding: 1.2em;
+    color: #ffffff;
+    border: 1px solid #fff;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0) scale(1.1);
+    transform: translate3d(0,20px,0) scale(1.1);
+} 
+
+figure.effect-portfolio16:hover h2 {
+    margin-top: -6%;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio16:hover p {
+    opacity: 1;
+    margin-top: 1em;
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    transform: translate3d(0,0,0) scale(1);
+}
+
+
+
+/*---------------------------------------
+    Search Result
+-----------------------------------------*/	
+
+.page-wrapper .posts-navigation a {
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px 24px;
+    border-radius: 30px;
+    display: table-cell;
+    float: left;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+
+.page-wrapper .posts-navigation a:hover {
+    color: #fff;
+}
+
+.page-wrapper .posts-navigation .nav-next {
+    float: right;
+}
+
+
+.comment-form input[type="submit"]:hover,
+.comment-form input[type="submit"]:focus  {
+    color: #7825F3;
+    background: #fff;
+}
+
+
+.wp-block-loginout a{
+	text-decoration:none;
+}
+
+.entry-content .more-link:hover, 
+.entry-content .more-link:focus {
+    color: #ffffff;
+}
+
+.select2-container--default .select2-selection--single {
+    min-height: 2.35em;
+}    
+
+.price_slider_wrapper .ui-slider .ui-slider-handle {
+    background: #ffffff;
+}
+
+.footer-sidebar .widget .woocommerce-product-search button:not(:hover):not(:focus) {
+    color: #fff;
+    border: solid 2px #fff;
+    background: transparent;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 2.35em;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 2.35em;
+}    
+
+.page-wrapper .wp-block-latest-comments {
+    padding-left: 0;
+}
+
+.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.entry-title a,
+.entry-content p {
+    word-break: break-word;
+}
+
+.footer-sidebar .wp-block-file a {
+    color: #fff;
+}
+
+ol.wp-block-latest-comments li a {
+    word-break: break-word;
+}
+
+.wp-block-embed figcaption {
+    text-align: center;
+}
+
+.wp-block-code code img {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.wp-block-pullquote.has-background blockquote {
+    background: inherit;
+}
+
+.woocommerce ul.products li.product .button.product_type_external {
+    width: 100%;
+}
+
+p.has-text-color em {
+    color: inherit;
+}
+
+.site-content .wp-block-group.has-background {
+    padding: 0 20px;
+}
+
+.wp-block-group em {
+    color: inherit;
+}

@@ -1,0 +1,77 @@
+# Translation of Themes - Ideate in German
+# This file is distributed under the same license as the Themes - Ideate package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-29 16:03:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Ideate\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Ideate is a trending WordPress theme with lots of powerful features, instantly giving a professional look to your online presence. Ideate comes with everything you could ever need to build an amazing website, and it's perfect for any type of business! View the demo of Ideate Premium https://demo.speciatheme.com/pro/?theme=ideate"
+msgstr "Ideate ist ein aufstrebendes WordPress-Theme mit vielen starken Funktionen, welches deiner Onlinepräsenz sofort ein professionelles Aussehen verleiht. Ideate bringt alles mit, was du jemals für die Erstellung einer tollen Website brauchen wirst und es eignet sich für alle Arten von Unternehmen! Sieh dir die Demo von Ideate an unter https://demo.speciatheme.com/pro/?theme=ideate"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Ideate"
+msgstr "Ideate"
+
+#: inc/customize/ideate-premium.php:27
+msgid "Support Center"
+msgstr "Support-Zentrum"
+
+#: inc/customize/ideate-premium.php:25
+msgid "Buy Now"
+msgstr "Jetzt kaufen"
+
+#: inc/customize/ideate-premium.php:23
+msgid "Premium Demo"
+msgstr "Premium-Demo"
+
+#: inc/customize/ideate-premium.php:7
+msgid "Upgrade to Premium"
+msgstr "Upgrade auf Premium"
+
+#. Template Name of the theme
+msgid "Homepage One"
+msgstr "Homepage Eins"
+
+#: sections/ideate-navigation.php:123
+msgid "0"
+msgstr "0"
+
+#: sections/ideate-navigation.php:99
+msgid "Type To Search"
+msgstr "Tippen, um zu suchen"
+
+#: sections/ideate-navigation.php:98
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: sections/ideate-navigation.php:97
+msgid "Site Search"
+msgstr "Suche auf der Website"
+
+#: header.php:21
+msgid "Skip to content"
+msgstr "Springe zum Inhalt"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://speciatheme.com/ideate-free/"
+msgstr "https://speciatheme.com/ideate-free/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://speciatheme.com/"
+msgstr "https://speciatheme.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Specia"
+msgstr "Specia"
